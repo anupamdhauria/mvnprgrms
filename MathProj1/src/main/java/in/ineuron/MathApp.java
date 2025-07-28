@@ -9,6 +9,6 @@ public class MathApp
     {
        MathApp mathProj=new MathApp();
 	   int result=mathProj.add(10,30);
-	   System.out.println("Result is:"+result);
+	   System.out.println("The sum is:"+result);
     }
 }
