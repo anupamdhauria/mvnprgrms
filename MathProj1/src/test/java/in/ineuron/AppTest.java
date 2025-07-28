@@ -8,7 +8,7 @@ import junit.framework.TestCase;
 
 public class AppTest extends TestCase {
 
-    public void testSumWithPositiveNumber() {
+    public void test1SumWithPositiveNumber() {
         MathApp ar = new MathApp();
         int actual = ar.add(10, 20);
         int expected = 30;
