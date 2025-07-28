@@ -1,0 +1,14 @@
+package in.ineuron;
+
+public class MathProj1 
+{
+	public int add(int x,int y){
+		return x+y;
+	}
+    public static void main( String[] args )
+    {
+       MathProj1 mathProj=new MathProj1();
+	   int result=mathProj.add(10,30);
+	   System.out.println("Result is:"+result);
+    }
+}
